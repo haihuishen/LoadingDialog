@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--自定义的属性-->
+    <!--使用方法：-->
+    <!--R.styleable.CircularImage-->
+    <!--R.styleable.CircularImage_border_color-->
+    <!--R.styleable.CircularImage_border_width-->
+    <!--<declare-styleable name="CircularImage">-->
+        <!--<attr name="border_width" format="dimension" />-->
+        <!--<attr name="border_color" format="color" />-->
+    <!--</declare-styleable>-->
+
+    <!--<declare-styleable name="CircleImageView">-->
+        <!--<attr name="border_width" format="dimension" />-->
+        <!--<attr name="border_color" format="color" />-->
+    <!--</declare-styleable>-->
+
+
+
+    <!-- 加载窗口(显示真正加载)-->
+    <declare-styleable name="Dialog">
+        <attr name="DialogTitleAppearance" format="reference" />
+        <attr name="DialogTitleText" format="reference|string" />
+        <attr name="DialogSpotColor" format="reference|color"/>
+        <attr name="DialogSpotCount" format="integer"/>
+    </declare-styleable>
+</resources>
